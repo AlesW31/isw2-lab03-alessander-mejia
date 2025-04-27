@@ -9,11 +9,11 @@ package clases;
  * @author alesw31
  */
 public abstract class ServicioLimpieza {
-    protected String direccionCliente;
-    protected double duracionHoras;
-    protected double tarifaHoras;
-    protected boolean incluyeMateriales;
-    protected String nombreCliente;
+    public String direccionCliente;
+    public double duracionHoras;
+    public double tarifaHoras;
+    public boolean incluyeMateriales;
+    public String nombreCliente;
 
     public ServicioLimpieza(String direccionCliente, double duracionHoras, double tarifaHoras, boolean incluyeMateriales, String nombreCliente) {
         this.direccionCliente = direccionCliente;
